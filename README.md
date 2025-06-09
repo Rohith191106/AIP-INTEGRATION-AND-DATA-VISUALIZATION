@@ -10,7 +10,50 @@ DURATION      :08-06-2025 TO 08-07-2025
 
 MENTOR NAME   :NEELA SANTHOSH KUMAR
 
-🔍 Code Description
+CODE:
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample dataset
+data = {
+    'Day': ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+    'Sales': [200, 150, 300, 280, 500, 700, 650]
+}
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+# Set style
+plt.style.use('ggplot')
+
+# Line Plot
+plt.figure(figsize=(8, 5))
+plt.plot(df['Day'], df['Sales'], marker='o', linestyle='-', color='blue')
+plt.title('Daily Sales Line Plot')
+plt.xlabel('Day')
+plt.ylabel('Sales')
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+# Bar Chart
+plt.figure(figsize=(8, 5))
+plt.bar(df['Day'], df['Sales'], color='green')
+plt.title('Daily Sales Bar Chart')
+plt.xlabel('Day')
+plt.ylabel('Sales')
+plt.tight_layout()
+plt.show()
+
+# Pie Chart
+plt.figure(figsize=(6, 6))
+plt.pie(df['Sales'], labels=df['Day'], autopct='%1.1f%%', startangle=90)
+plt.title('Sales Distribution Pie Chart')
+plt.tight_layout()
+plt.show()
+
+🔍 Code Description:
 
 🔹 1. Import Libraries
 
