@@ -138,6 +138,12 @@ Visualize the data using different types of plots:
 
 Line plot (for trend)
 
+OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/11f6fcf9-3e1b-4be4-9c38-a348d30bbc52)
+![Image](https://github.com/user-attachments/assets/e4b0649a-7a4b-4c1a-b854-405c3e3f9789)
+![Image](https://github.com/user-attachments/assets/37d4af1f-5a4c-45c3-9728-c79ba16784b9)
+
 Bar chart (for comparison)
 
 Pie chart (for proportion)
